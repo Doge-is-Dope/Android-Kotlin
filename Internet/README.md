@@ -194,8 +194,8 @@ private fun getMarsRealEstateProperties() {
         val listResult = MarsApi.retrofitService.getProperties()
             try {
                 _response.value = "Success: ${listResult.size} Mars properties retrieved"
-            } catch (t: Throwable) {
-                _response.value = "Failure: ${t.message}"
+            } catch (e: Exception) {
+                _response.value = "Failure: ${e.message}"
         }
     }
 }
@@ -216,3 +216,51 @@ override fun onCleared() {
 implementation "com.github.bumptech.glide:glide:$version_glide"
 ```
 
+2. Create a ```BindingAdapter``` to convert imgUrl to a URI with the https scheme
+
+```kotlin
+@BindingAdapter("imageUrl")
+fun bindImage(imgView: ImageView, imgUrl: String?) {
+    imgUrl?.let {
+        val imgUri = imgUrl.toUri().buildUpon().scheme("https").build()
+        Glide.with(imgView.context)
+            .load(imgUri)
+            .into(imgView)
+    }
+}
+```
+
+3. In layout, add a viewModel data variable and bind the ImageView using BindingAdapter
+```xml
+<data>
+    <variable
+        name="viewModel"
+        type="com.chunchiehliang.kotlin.internet.overview.OverviewViewModel" />
+</data>
+```
+
+```xml
+<ImageView
+    app:imageUrl="@{viewModel.property.imgSrcUrl}" />
+```
+
+4. Optional: Add a loading placeholder & an error image
+```kotlin
+@BindingAdapter("imageUrl")
+fun bindImage(imgView: ImageView, imgUrl: String?) {
+    imgUrl?.let {
+        val imgUri = imgUrl.toUri().buildUpon().scheme("https").build()
+        Glide.with(imgView.context)
+            .load(imgUri)
+            .apply(
+                RequestOptions()
+                .placeholder(R.drawable.loading_animation)
+                .error(R.drawable.ic_broken_image))
+            .into(imgView)
+    }
+}
+```
+
+### Reference
+
+- [Glide](https://bumptech.github.io/glide/)

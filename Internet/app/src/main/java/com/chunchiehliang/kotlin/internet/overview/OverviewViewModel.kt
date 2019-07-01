@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.chunchiehliang.kotlin.internet.network.MarsApi
+import com.chunchiehliang.kotlin.internet.network.MarsProperty
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -11,9 +12,14 @@ import kotlinx.coroutines.launch
 
 class OverviewViewModel : ViewModel() {
 
-    private val _response = MutableLiveData<String>()
-    val response: LiveData<String>
-        get() = _response
+    private val _status = MutableLiveData<String>()
+    val status: LiveData<String>
+        get() = _status
+
+
+    private val _property = MutableLiveData<MarsProperty>()
+    val property: LiveData<MarsProperty>
+        get() = _property
 
     private var viewModelJob = Job()
     private var coroutineScope = CoroutineScope(viewModelJob + Dispatchers.Main)
@@ -27,11 +33,16 @@ class OverviewViewModel : ViewModel() {
      */
     private fun getMarsRealEstateProperties() {
         coroutineScope.launch {
-            val properties = MarsApi.retrofitService.getProperties()
+            val propertyList = MarsApi.retrofitService.getProperties()
             try {
-                _response.value = "Success: ${properties.size} Mars properties retrieved"
-            } catch (t: Throwable) {
-                _response.value = "Failure: ${t.message}"
+//                _status.value = "Success: ${propertyList.size} Mars properties retrieved"
+
+                if (propertyList.isNotEmpty()) {
+                    _property.value = propertyList[0]
+                }
+
+            } catch (e: Exception) {
+                _status.value = "Failure: ${e.message}"
             }
         }
     }
