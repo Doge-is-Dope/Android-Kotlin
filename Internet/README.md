@@ -6,6 +6,12 @@
 operations including ```GET```, ```POST```, ```PUT``` and ```DELETE```.
 - URI: Comparing to URL, URI specifies the data you want; **A URL is a type of URI**.
 
+### Outline
+1. [Retrofit: Http API Interface]()
+2. [Moshi: JSON Parser]()
+3. [Kotlin Coroutine: Asynchronous Service]()
+4. [Glide: Image Loading Library]()
+5. [Parcelize: Turns a Kotlin data object with simple and Parcelable types into a Parcelable object]()
 
 
 ### Retrofit Basics: What Retrofit needs to build a Network API
