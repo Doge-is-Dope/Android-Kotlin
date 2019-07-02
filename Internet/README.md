@@ -7,10 +7,10 @@ operations including ```GET```, ```POST```, ```PUT``` and ```DELETE```.
 - URI: Comparing to URL, URI specifies the data you want; **A URL is a type of URI**.
 
 ### Outline
-1. [Retrofit: Http API Interface]()
-2. [Moshi: JSON Parser]()
-3. [Kotlin Coroutine: Asynchronous Service]()
-4. [Glide: Image Loading Library]()
+1. [Retrofit: Http API Interface](https://github.com/chunchiehliang/AndroidKotlin/tree/master/Internet#retrofit-usage)
+2. [Moshi: JSON Parser](https://github.com/chunchiehliang/AndroidKotlin/tree/master/Internet#parse-json-using-moshi)
+3. [Kotlin Coroutine: Asynchronous Service](https://github.com/chunchiehliang/AndroidKotlin/tree/master/Internet#user-retrofit-with-coroutines)
+4. [Glide: Image Loading Library](https://github.com/chunchiehliang/AndroidKotlin/tree/master/Internet#display-an-internet-image-using-glide)
 5. [Parcelize: Turns a Kotlin data object with simple and Parcelable types into a Parcelable object]()
 
 
@@ -264,6 +264,29 @@ fun bindImage(imgView: ImageView, imgUrl: String?) {
                 .error(R.drawable.ic_broken_image))
             .into(imgView)
     }
+}
+```
+
+
+### Parcelize
+
+1. Add ```androidExtensions``` in ```build.gradle (module)```
+```
+android {
+    androidExtensions {
+        experimental = true
+    }
+}
+```
+2. Set the annotation and the return type
+```kotlin
+@Parcelize
+data class MarsProperty(
+    val id: String,
+    @Json(name = "img_src") val imgSrcUrl: String,
+    val type: String,
+    val price: Double) : Parcelable {
+
 }
 ```
 
