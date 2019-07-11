@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="genre"
+            type="com.chunchiehliang.kotlin.nestedrecyclerview.Genre" />
+    </data>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:drawableStart="@drawable/tag_dot"
+        android:drawablePadding="@dimen/spacing_micro"
+        android:text="@{genre.name}"
+        app:genreTagTint="@{genre.id}"
+        tools:drawableStart="@drawable/tag_dot"
+        tools:drawableTint="@color/colorPrimary"
+        tools:text="Fantasy" />
+</layout>
