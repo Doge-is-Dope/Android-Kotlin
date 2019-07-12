@@ -40,7 +40,7 @@
                 android:orientation="horizontal"
                 android:paddingBottom="@dimen/spacing_micro"
                 app:genreTags="@{movie.genres}"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layoutManager="com.google.android.flexbox.FlexboxLayoutManager"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@id/text_movie_title"
                 app:layout_constraintTop_toBottomOf="@id/text_movie_title"
