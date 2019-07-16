@@ -15,9 +15,9 @@
  *
  */
 
-package com.example.android.devbyteviewer.network
+package com.chunchiehliang.kotlin.architecture.network
 
-import com.example.android.devbyteviewer.domain.Video
+import com.chunchiehliang.kotlin.architecture.domain.Video
 import com.squareup.moshi.JsonClass
 
 /**

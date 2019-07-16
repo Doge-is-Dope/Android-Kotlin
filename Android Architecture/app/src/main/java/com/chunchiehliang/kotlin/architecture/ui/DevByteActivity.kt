@@ -15,11 +15,11 @@
  *
  */
 
-package com.example.android.devbyteviewer.ui
+package com.chunchiehliang.kotlin.architecture.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.android.devbyteviewer.R
+import com.chunchiehliang.kotlin.architecture.R
 
 /**
  * This is a single activity application that uses the Navigation library. Content is displayed

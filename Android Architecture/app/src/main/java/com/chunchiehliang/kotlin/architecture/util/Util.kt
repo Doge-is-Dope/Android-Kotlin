@@ -15,7 +15,7 @@
  *
  */
 
-package com.example.android.devbyteviewer.util
+package com.chunchiehliang.kotlin.architecture.util
 
 private val PUNCTUATION = listOf(", ", "; ", ": ", " ")
 

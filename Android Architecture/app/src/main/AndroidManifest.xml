@@ -18,12 +18,12 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.android.devbyteviewer">
+    package="com.chunchiehliang.kotlin.architecture">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".DevByteApplication"
+        android:name="com.chunchiehliang.kotlin.architecture.DevByteApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -31,7 +31,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.DevByteActivity">
+        <activity android:name="com.chunchiehliang.kotlin.architecture.ui.DevByteActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

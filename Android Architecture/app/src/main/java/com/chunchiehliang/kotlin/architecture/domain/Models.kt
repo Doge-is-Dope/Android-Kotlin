@@ -15,9 +15,9 @@
  *
  */
 
-package com.example.android.devbyteviewer.domain
+package com.chunchiehliang.kotlin.architecture.domain
 
-import com.example.android.devbyteviewer.util.smartTruncate
+import com.chunchiehliang.kotlin.architecture.util.smartTruncate
 
 /**
  * Domain objects are plain Kotlin data classes that represent the things in our app. These are the

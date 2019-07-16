@@ -15,7 +15,7 @@
  *
  */
 
-package com.example.android.devbyteviewer.ui
+package com.chunchiehliang.kotlin.architecture.ui
 
 import android.content.Intent
 import android.net.Uri
@@ -30,11 +30,11 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.android.devbyteviewer.R
-import com.example.android.devbyteviewer.databinding.DevbyteItemBinding
-import com.example.android.devbyteviewer.databinding.FragmentDevByteBinding
-import com.example.android.devbyteviewer.domain.Video
-import com.example.android.devbyteviewer.viewmodels.DevByteViewModel
+import com.chunchiehliang.kotlin.architecture.R
+import com.chunchiehliang.kotlin.architecture.databinding.DevbyteItemBinding
+import com.chunchiehliang.kotlin.architecture.databinding.FragmentDevByteBinding
+import com.chunchiehliang.kotlin.architecture.domain.Video
+import com.chunchiehliang.kotlin.architecture.viewmodels.DevByteViewModel
 
 /**
  * Show a list of DevBytes on screen.

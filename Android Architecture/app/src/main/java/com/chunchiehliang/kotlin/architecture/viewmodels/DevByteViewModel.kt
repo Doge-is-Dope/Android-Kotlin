@@ -15,17 +15,14 @@
  *
  */
 
-package com.example.android.devbyteviewer.viewmodels
+package com.chunchiehliang.kotlin.architecture.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.*
-import com.example.android.devbyteviewer.domain.Video
-import com.example.android.devbyteviewer.network.Network
-import com.example.android.devbyteviewer.network.asDomainModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.SupervisorJob
-import kotlinx.coroutines.launch
+import com.chunchiehliang.kotlin.architecture.domain.Video
+import com.chunchiehliang.kotlin.architecture.network.Network
+import com.chunchiehliang.kotlin.architecture.network.asDomainModel
+import kotlinx.coroutines.*
 import java.io.IOException
 
 /**
@@ -80,6 +77,7 @@ class DevByteViewModel(application: Application) : AndroidViewModel(application)
      * background thread.
      */
     private fun refreshDataFromNetwork() = viewModelScope.launch {
+//        delay(3_000)
         try {
             val playlist = Network.devbytes.getPlaylist().await()
             _playlist.postValue(playlist.asDomainModel())

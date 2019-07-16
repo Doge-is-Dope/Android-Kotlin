@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.example.android.devbyteviewer"
+        applicationId "com.chunchiehliang.kotlin.architecture"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
@@ -69,10 +69,16 @@ dependencies {
     // Glide for images
     implementation "com.github.bumptech.glide:glide:$version_glide"
 
+    // Shimmer for image placeholders
+    implementation "com.facebook.shimmer:shimmer:$version_shimmer"
+
     // Room database
     implementation "androidx.room:room-runtime:$version_room"
     kapt "androidx.room:room-compiler:$version_room"
 
     // WorkManager
     implementation "android.arch.work:work-runtime-ktx:$version_work"
+
+
+
 }

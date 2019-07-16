@@ -15,5 +15,5 @@
  *
  */
 
-package com.example.android.devbyteviewer.database
+package com.chunchiehliang.kotlin.architecture.database
 
