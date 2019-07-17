@@ -20,6 +20,11 @@ Using the SQL database is handy for huge and structured data. E.g. ```Room```
 | Data Size     | Big             | Small            | Big         |
 | Complex Query | Yes             | No               | Difficult   |
 
+#### Offline Cache Pattern
+1. Show data from the database
+2. Make sure the server saves **before** updating 
+the database
+
 
 
 

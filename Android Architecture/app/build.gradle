@@ -25,7 +25,9 @@ android {
     dataBinding {
         enabled = true
     }
-
+    androidExtensions {
+        experimental = true
+    }
 }
 
 dependencies {
@@ -51,7 +53,7 @@ dependencies {
     // Retrofit for networking
     implementation "com.squareup.retrofit2:retrofit:$version_retrofit"
     implementation "com.squareup.retrofit2:converter-moshi:$version_retrofit"
-    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$version_retrofit_coroutines_adapter"
+//    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$version_retrofit_coroutines_adapter"
 
     // Moshi for parsing the JSON format
     implementation "com.squareup.moshi:moshi:$version_moshi"

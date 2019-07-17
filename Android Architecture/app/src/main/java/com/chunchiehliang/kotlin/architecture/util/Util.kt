@@ -24,7 +24,6 @@ private val PUNCTUATION = listOf(", ", "; ", ": ", " ")
  */
 fun String.smartTruncate(length: Int): String {
     val words = split(" ")
-    var added = 0
     var hasMore = false
     val builder = StringBuilder()
     for (word in words) {
@@ -34,7 +33,6 @@ fun String.smartTruncate(length: Int): String {
         }
         builder.append(word)
         builder.append(" ")
-        added += 1
     }
 
     PUNCTUATION.map {

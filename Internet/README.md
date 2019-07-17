@@ -161,6 +161,8 @@ private fun getMarsRealEstateProperties() {
 ```
 
 ### User Retrofit with Coroutines
+
+Make sure the version of Retrofit is **2.6.0** which [supports ```suspend``` modifier](https://github.com/square/retrofit/blob/master/CHANGELOG.md#version-260-2019-06-05).
 1. Add dependencies for Coroutines
 ```
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version_kotlin_coroutines"
@@ -178,6 +180,7 @@ interface MarsApiService {
 ```
 
 Then, change the ```Call<List<Data>>``` to ```List<MarsProperty>```
+
 ```kotlin
 interface MarsApiService {
     @GET("realestate")
