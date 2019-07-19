@@ -68,6 +68,7 @@ data class NetworkVideo(
 Add an extension function which converts data transfer objects to domain objects
 
 ```kotlin
+// network/DataTransferObjects.kt
 fun NetworkVideoContainer.asDomainModel(): List<Video> {
     return videos.map {
         Video(
@@ -82,7 +83,7 @@ fun NetworkVideoContainer.asDomainModel(): List<Video> {
 
 ### 1.3 Create Database Object
 ```kotlin
-// database/DatabaseEntities
+// database/DatabaseEntities.kt
 @Entity
 data class DatabaseVideo (
     @PrimaryKey
@@ -96,6 +97,7 @@ data class DatabaseVideo (
 Add an extension function which converts database objects to domain objects
 
 ```kotlin
+// database/DatabaseEntities.kt
 fun List<DatabaseVideo>.asDomainModel(): List<Video> {
     return map {
         Video (
@@ -107,3 +109,33 @@ fun List<DatabaseVideo>.asDomainModel(): List<Video> {
     }
 }
 ```
+
+In data transfer objects, add an extension function which converts data transfer objects to database objects
+
+```kotlin
+// network/DataTransferObjects.kt
+fun NetworkVideoContainer.asDatabaseModel(): Array<DatabaseVideo> {
+    return videos.map {
+        DatabaseVideo (
+            title = it.title,
+            description = it.description,
+            url = it.url,
+            updated = it.updated,
+            thumbnail = it.thumbnail)
+    }.toTypedArray()
+}
+```
+
+### 2. Add DAO
+
+```kotlin
+// database/Room.kt
+@Dao
+interface VideoDao {
+    @Query("select * from databasevideo")
+    fun getVideos(): List<DatabaseVideo>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertAll(vararg videos: DatabaseVideo)
+}
+``` 
