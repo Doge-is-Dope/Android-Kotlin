@@ -19,11 +19,17 @@ package com.chunchiehliang.kotlin.architecture.ui
 
 import android.content.Intent
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.*
 import android.view.ViewGroup
 import androidx.annotation.LayoutRes
+import androidx.core.view.ViewCompat
+import androidx.core.view.updateLayoutParams
+import androidx.core.view.updatePadding
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -35,6 +41,9 @@ import com.chunchiehliang.kotlin.architecture.databinding.DevbyteItemBinding
 import com.chunchiehliang.kotlin.architecture.databinding.FragmentDevByteBinding
 import com.chunchiehliang.kotlin.architecture.domain.Video
 import com.chunchiehliang.kotlin.architecture.viewmodels.DevByteViewModel
+import kotlinx.android.synthetic.main.fragment_dev_byte.*
+import kotlinx.android.synthetic.main.fragment_dev_byte.view.*
+import timber.log.Timber
 
 /**
  * Show a list of DevBytes on screen.
@@ -69,6 +78,7 @@ class DevByteFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         viewModel.playlist.observe(viewLifecycleOwner, Observer<List<Video>> { videos ->
             videos?.apply {
+                Timber.d("Videos: ${videos.size}")
                 viewModelAdapter?.videos = videos
             }
         })
@@ -97,9 +107,9 @@ class DevByteFragment : Fragment() {
                 R.layout.fragment_dev_byte,
                 container,
                 false)
+
         // Set the lifecycleOwner so DataBinding can observe LiveData
         binding.setLifecycleOwner(viewLifecycleOwner)
-
         binding.viewModel = viewModel
 
         viewModelAdapter = DevByteAdapter(VideoClick {
@@ -111,7 +121,7 @@ class DevByteFragment : Fragment() {
 
             // Try to generate a direct intent to the YouTube app
             var intent = Intent(Intent.ACTION_VIEW, it.launchUri)
-            if(intent.resolveActivity(packageManager) == null) {
+            if (intent.resolveActivity(packageManager) == null) {
                 // YouTube app isn't found, use the web url
                 intent = Intent(Intent.ACTION_VIEW, Uri.parse(it.url))
             }
@@ -119,12 +129,17 @@ class DevByteFragment : Fragment() {
             startActivity(intent)
         })
 
-        binding.root.findViewById<RecyclerView>(R.id.recycler_view).apply {
+        binding.recyclerView.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = viewModelAdapter
         }
 
         return binding.root
+    }
+
+
+    private fun pxFromDp(dp: Float): Int {
+        return (dp * resources.displayMetrics.density).toInt()
     }
 
     /**
