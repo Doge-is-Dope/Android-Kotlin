@@ -21,7 +21,7 @@
         android:id="@+id/gdg_search"
         android:name="com.chunchiehliang.kotlin.materialdesign.search.GdgListFragment"
         android:label="GDG Search"
-        tools:layout="@layout/fragment_gdg_list"/>
+        tools:layout="@layout/fragment_gdg_list" />
 
     <fragment
         android:id="@+id/gdg_apply"
