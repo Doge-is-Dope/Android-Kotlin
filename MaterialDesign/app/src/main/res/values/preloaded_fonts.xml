@@ -2,5 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/glegoo</item>
+        <item>@font/libre_franklin</item>
+        <item>@font/libre_franklin_extrabold</item>
     </array>
 </resources>

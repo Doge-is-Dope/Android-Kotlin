@@ -12,11 +12,11 @@ buildscript {
         version_lifecycle_extensions = "2.0.0"
         version_moshi = "1.8.0"
         version_navigation = "1.0.0"
-        version_constraint_layout = "2.0.0-beta2"
+        version_constraint_layout = "2.0.0-beta2" // bug: No package ID ff found for ID 0xffffffff.
         version_glide = "4.9.0"
         version_retrofit = "2.6.0"
         version_recyclerview = "1.1.0-beta01"
-        version_material = "1.1.0-alpha07"
+        version_material = "1.1.0-alpha07" // bug: don't update to alpha08
         version_play_services = "17.0.0"
     }
 
