@@ -124,11 +124,7 @@ class GdgChapterRepository(val gdgApiService: GdgApiService) {
      * Note, by convention this class won't sort on the Main thread. This is not a public API and should
      * only be called by [doSortData].
      */
-    private class SortedData private constructor(
-        val chapters: List<GdgChapter>,
-        val filters: List<String>,
-        val chaptersByRegion: Map<String, List<GdgChapter>>
-    ) {
+    private class SortedData private constructor(val chapters: List<GdgChapter>, val filters: List<String>, val chaptersByRegion: Map<String, List<GdgChapter>>) {
 
         companion object {
             /**

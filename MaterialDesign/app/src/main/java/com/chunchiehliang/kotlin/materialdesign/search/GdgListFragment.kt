@@ -1,6 +1,7 @@
 package com.chunchiehliang.kotlin.materialdesign.search
 
 import android.content.Intent
+
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
@@ -11,8 +12,10 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import com.chunchiehliang.kotlin.materialdesign.R
 import com.chunchiehliang.kotlin.materialdesign.databinding.FragmentGdgListBinding
 import com.google.android.gms.location.*
+import com.google.android.material.chip.Chip
 import com.google.android.material.snackbar.Snackbar
 
 private const val LOCATION_PERMISSION_REQUEST = 1
@@ -59,6 +62,33 @@ class GdgListFragment : Fragment() {
             }
         })
 
+
+        viewModel.regionList.observe(viewLifecycleOwner, object : Observer<List<String>> {
+            override fun onChanged(data: List<String>?) {
+                data ?: return
+
+                val chipGroup = binding.regionList
+
+                val children = data.map { regionName ->
+                    val chip = LayoutInflater
+                        .from(chipGroup.context)
+                        .inflate(R.layout.chip_region, chipGroup, false) as Chip
+
+                    chip.text = regionName
+                    chip.tag = regionName
+                    chip.setOnCheckedChangeListener { button, isChecked ->
+                        viewModel.onFilterChanged(button.tag as String, isChecked)
+                    }
+                    chip
+                }
+
+                chipGroup.removeAllViews()
+
+                for (chip in children) {
+                    chipGroup.addView(chip)
+                }
+            }
+        })
         setHasOptionsMenu(true)
         return binding.root
     }
@@ -133,7 +163,11 @@ class GdgListFragment : Fragment() {
      *
      * If granted, continue with the operation that the user gave us permission to do.
      */
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         when (requestCode) {
             LOCATION_PERMISSION_REQUEST -> {
