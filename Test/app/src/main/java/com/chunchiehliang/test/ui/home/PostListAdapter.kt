@@ -1,4 +1,4 @@
-package com.chunchiehliang.test.ui
+package com.chunchiehliang.test.ui.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

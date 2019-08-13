@@ -1,4 +1,4 @@
-package com.chunchiehliang.test.ui
+package com.chunchiehliang.test.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

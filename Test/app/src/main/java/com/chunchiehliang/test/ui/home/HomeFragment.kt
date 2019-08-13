@@ -1,4 +1,4 @@
-package com.chunchiehliang.test.ui
+package com.chunchiehliang.test.ui.home
 
 
 import android.graphics.Rect
@@ -10,7 +10,6 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.RecyclerView
-import com.chunchiehliang.test.R
 import com.chunchiehliang.test.databinding.FragmentHomeBinding
 
 
@@ -24,9 +23,10 @@ class HomeFragment : Fragment() {
 
         val binding = FragmentHomeBinding.inflate(inflater)
 
-        val adapter = PostListAdapter(PostClickListener() { post ->
-            Toast.makeText(context, "${post.id}", Toast.LENGTH_SHORT).show()
-        })
+        val adapter =
+            PostListAdapter(PostClickListener() { post ->
+                Toast.makeText(context, "${post.id}", Toast.LENGTH_SHORT).show()
+            })
 
         binding.viewModel = viewModel
         binding.lifecycleOwner = this

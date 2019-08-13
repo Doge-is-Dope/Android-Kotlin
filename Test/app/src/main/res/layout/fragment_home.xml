@@ -7,15 +7,25 @@
 
         <variable
             name="viewModel"
-            type="com.chunchiehliang.test.ui.PostListViewModel" />
+            type="com.chunchiehliang.test.ui.home.PostListViewModel" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true"
-        android:paddingBottom="?actionBarSize"
-        tools:context=".ui.HomeFragment">
+        tools:context=".ui.home.HomeFragment"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="@string/menu_home" />
+        </com.google.android.material.appbar.AppBarLayout>
 
 
         <androidx.recyclerview.widget.RecyclerView
@@ -23,6 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
             app:listData="@{viewModel.postList}"
             tools:listitem="@layout/list_item_post" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

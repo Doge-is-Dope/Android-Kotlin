@@ -1,4 +1,4 @@
-package com.chunchiehliang.test.ui
+package com.chunchiehliang.test.ui.profile
 
 import android.os.Bundle
 import android.view.LayoutInflater

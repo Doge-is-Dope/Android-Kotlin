@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.chunchiehliang.test.ui.HomeFragment"
+        android:name="com.chunchiehliang.test.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
 
@@ -19,7 +19,13 @@
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.chunchiehliang.test.ui.ProfileFragment"
+        android:name="com.chunchiehliang.test.ui.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+
+    <activity
+        android:id="@+id/newPostActivity"
+        android:name="com.chunchiehliang.test.ui.add.NewPostActivity"
+        android:label="activity_new_post"
+        tools:layout="@layout/activity_new_post" />
 </navigation>
