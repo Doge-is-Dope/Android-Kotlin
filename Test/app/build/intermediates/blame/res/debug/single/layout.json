@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_test.xml",
+        "source": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/res/layout/fragment_test.xml"
+    },
+    {
+        "merged": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_new_post.xml",
+        "source": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/res/layout/activity_new_post.xml"
+    },
+    {
+        "merged": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
+        "source": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/list_item_post.xml",
+        "source": "/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/res/layout/list_item_post.xml"
+    }
+]

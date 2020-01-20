@@ -1,0 +1,469 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] /Users/maple/.gradle/caches/transforms-2/files-2.1/54b8fe2bcbaa87b3ab1390aad76489d5/databinding-adapters-3.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] /Users/maple/.gradle/caches/transforms-2/files-2.1/18ca2f96ea0bda1f7553a36a1d6a1137/databinding-runtime-3.5.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4ab2d1156e4f3d909cd963ed1bd6b461/navigation-ui-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/6f61dddc34c44a5259e36f282d551f39/jetified-navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0-alpha10] /Users/maple/.gradle/caches/transforms-2/files-2.1/252a636d2a372cabd263aa68aa68a21d/material-1.1.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/071dd5b3cc65ab6d137d67f7c9745f33/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maple/.gradle/caches/transforms-2/files-2.1/546af57b5348845e2743d8782b69ebeb/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] /Users/maple/.gradle/caches/transforms-2/files-2.1/61fd9c6349190d3ebedc52cb4ce6a712/viewpager2-1.0.0-beta03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /Users/maple/.gradle/caches/transforms-2/files-2.1/3a7a3696e61076b752a74734e807b407/recyclerview-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android:flexbox:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/fb6e41baf116b6a56f722bc4b7a7ab45/flexbox-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/07ddadc7773d91d21382ce8dc8da470f/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.work:work-runtime-ktx:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/de514590979f667f1541b8ee827f5577/jetified-work-runtime-ktx-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:17:1-123:12
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/055a2c68bd0713e6fe276bfca5604b9a/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/ff5cd3674e6ad0d58dbb99b53b38c944/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/b84005c561af4a1e33430637df4c4f5a/fragment-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/7fecf64fa491f7d052e4238fdd769b19/activity-ktx-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a57affc519469bad191d7d61abe1f7b8/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/f1dffcc8853eefca7ed0ee71e200cd01/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/b4b5cc21dcb8a4f20db517ed291c06e1/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/d69e24bb4bc4f4ca7367e2a2eb54d2ba/jetified-shimmer-0.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/0c1891a1861fa53378d369200375db45/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/9536e5eafebb613add9e980eeec5fd7a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/7e8ac247b909defa735acea9c5780e67/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/e23ffea79c49a77aa8e47c39572e4827/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/maple/.gradle/caches/transforms-2/files-2.1/daaf7c61bbf3a8aaafa0a34d79012a8a/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/79a2c8b9459b930fb76fef8c9ec11aaa/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/76d022f5ff4f7932a4b3547f2c8c35d9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/3ad8a48fc3d596cc6abc92f909587d2a/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/62570f6f7bea65cc2d7fbe8f9f40a9d1/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/449fe71061d8194d3bacdb9498e9307d/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/18264774997eab4d53438a3a5e8a556a/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/82c3fd7bbaef927b9443f81a4a66aa83/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/f6d1efbdcdc5724cfe4cb9e5d6aef9be/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/cba99f7b20204a32f04809b30356a13a/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/e1f2b733bee8bc571057f2eaab91ff7e/navigation-common-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/6f761d7e1438d953ead61f7dc3dbd1a6/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4e48321e58b3bdb9bac7aebbea2bd5b1/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/31c18aa551964fd58b07fd3edd1ae850/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/10c1fe3057c12dc76b2d545cee936ec1/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/633ff9bbcc77a883f2f61afde785f7a6/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/0e8ac696927732b71d261566e34b4ebd/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/07490337bdedfd582203c4364b2cf23c/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/c2e84db4d2d9c8a30991bede50ad05f5/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/90c2eeb7da4eaddc2f4896995aabdbe8/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a0c94074a1f0c99d4588a73bc84fb65d/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/ff8b7fa994dd347c49b86e30db7fea13/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/9b29d9ceebaab4323cf5b54889605d38/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/8af01f83158beb1041c7bb5d2be19e47/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd5ea9d63d294b0c2c5a69e1b00be77e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a2183b8b623064c2a56b803a93613e8d/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/2c0157e5172c2a4cece04678df8f2661/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:5:5-27:19
+MERGED from [com.google.android.material:material:1.1.0-alpha10] /Users/maple/.gradle/caches/transforms-2/files-2.1/252a636d2a372cabd263aa68aa68a21d/material-1.1.0-alpha10/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha10] /Users/maple/.gradle/caches/transforms-2/files-2.1/252a636d2a372cabd263aa68aa68a21d/material-1.1.0-alpha10/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maple/.gradle/caches/transforms-2/files-2.1/546af57b5348845e2743d8782b69ebeb/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maple/.gradle/caches/transforms-2/files-2.1/546af57b5348845e2743d8782b69ebeb/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:27:5-121:19
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:27:5-121:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/055a2c68bd0713e6fe276bfca5604b9a/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/055a2c68bd0713e6fe276bfca5604b9a/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/f1dffcc8853eefca7ed0ee71e200cd01/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/f1dffcc8853eefca7ed0ee71e200cd01/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/b4b5cc21dcb8a4f20db517ed291c06e1/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/b4b5cc21dcb8a4f20db517ed291c06e1/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4e48321e58b3bdb9bac7aebbea2bd5b1/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4e48321e58b3bdb9bac7aebbea2bd5b1/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/633ff9bbcc77a883f2f61afde785f7a6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/633ff9bbcc77a883f2f61afde785f7a6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a2183b8b623064c2a56b803a93613e8d/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a2183b8b623064c2a56b803a93613e8d/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4e48321e58b3bdb9bac7aebbea2bd5b1/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:6:9-40
+activity#com.chunchiehliang.test.ui.MainActivity
+ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:theme
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:16:13-56
+	android:name
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:15:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.chunchiehliang.test.ui.add.NewPostActivity
+ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:24:9-26:59
+	android:theme
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:25:13-51
+uses-sdk
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] /Users/maple/.gradle/caches/transforms-2/files-2.1/54b8fe2bcbaa87b3ab1390aad76489d5/databinding-adapters-3.5.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.5.2] /Users/maple/.gradle/caches/transforms-2/files-2.1/54b8fe2bcbaa87b3ab1390aad76489d5/databinding-adapters-3.5.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] /Users/maple/.gradle/caches/transforms-2/files-2.1/18ca2f96ea0bda1f7553a36a1d6a1137/databinding-runtime-3.5.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.2] /Users/maple/.gradle/caches/transforms-2/files-2.1/18ca2f96ea0bda1f7553a36a1d6a1137/databinding-runtime-3.5.2/AndroidManifest.xml:22:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4ab2d1156e4f3d909cd963ed1bd6b461/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4ab2d1156e4f3d909cd963ed1bd6b461/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/6f61dddc34c44a5259e36f282d551f39/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/6f61dddc34c44a5259e36f282d551f39/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0-alpha10] /Users/maple/.gradle/caches/transforms-2/files-2.1/252a636d2a372cabd263aa68aa68a21d/material-1.1.0-alpha10/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha10] /Users/maple/.gradle/caches/transforms-2/files-2.1/252a636d2a372cabd263aa68aa68a21d/material-1.1.0-alpha10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/071dd5b3cc65ab6d137d67f7c9745f33/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/071dd5b3cc65ab6d137d67f7c9745f33/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maple/.gradle/caches/transforms-2/files-2.1/546af57b5348845e2743d8782b69ebeb/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maple/.gradle/caches/transforms-2/files-2.1/546af57b5348845e2743d8782b69ebeb/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] /Users/maple/.gradle/caches/transforms-2/files-2.1/61fd9c6349190d3ebedc52cb4ce6a712/viewpager2-1.0.0-beta03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] /Users/maple/.gradle/caches/transforms-2/files-2.1/61fd9c6349190d3ebedc52cb4ce6a712/viewpager2-1.0.0-beta03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /Users/maple/.gradle/caches/transforms-2/files-2.1/3a7a3696e61076b752a74734e807b407/recyclerview-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /Users/maple/.gradle/caches/transforms-2/files-2.1/3a7a3696e61076b752a74734e807b407/recyclerview-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android:flexbox:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/fb6e41baf116b6a56f722bc4b7a7ab45/flexbox-1.1.0/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android:flexbox:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/fb6e41baf116b6a56f722bc4b7a7ab45/flexbox-1.1.0/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/07ddadc7773d91d21382ce8dc8da470f/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/07ddadc7773d91d21382ce8dc8da470f/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.work:work-runtime-ktx:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/de514590979f667f1541b8ee827f5577/jetified-work-runtime-ktx-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.work:work-runtime-ktx:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/de514590979f667f1541b8ee827f5577/jetified-work-runtime-ktx-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:21:5-44
+MERGED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/055a2c68bd0713e6fe276bfca5604b9a/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/055a2c68bd0713e6fe276bfca5604b9a/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/ff5cd3674e6ad0d58dbb99b53b38c944/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/ff5cd3674e6ad0d58dbb99b53b38c944/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/b84005c561af4a1e33430637df4c4f5a/fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/b84005c561af4a1e33430637df4c4f5a/fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/7fecf64fa491f7d052e4238fdd769b19/activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/7fecf64fa491f7d052e4238fdd769b19/activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a57affc519469bad191d7d61abe1f7b8/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a57affc519469bad191d7d61abe1f7b8/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/f1dffcc8853eefca7ed0ee71e200cd01/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/f1dffcc8853eefca7ed0ee71e200cd01/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/b4b5cc21dcb8a4f20db517ed291c06e1/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/b4b5cc21dcb8a4f20db517ed291c06e1/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/d69e24bb4bc4f4ca7367e2a2eb54d2ba/jetified-shimmer-0.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/d69e24bb4bc4f4ca7367e2a2eb54d2ba/jetified-shimmer-0.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/0c1891a1861fa53378d369200375db45/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/0c1891a1861fa53378d369200375db45/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/9536e5eafebb613add9e980eeec5fd7a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/9536e5eafebb613add9e980eeec5fd7a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/7e8ac247b909defa735acea9c5780e67/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/7e8ac247b909defa735acea9c5780e67/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/e23ffea79c49a77aa8e47c39572e4827/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/e23ffea79c49a77aa8e47c39572e4827/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/maple/.gradle/caches/transforms-2/files-2.1/daaf7c61bbf3a8aaafa0a34d79012a8a/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/maple/.gradle/caches/transforms-2/files-2.1/daaf7c61bbf3a8aaafa0a34d79012a8a/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/79a2c8b9459b930fb76fef8c9ec11aaa/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/79a2c8b9459b930fb76fef8c9ec11aaa/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/76d022f5ff4f7932a4b3547f2c8c35d9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/76d022f5ff4f7932a4b3547f2c8c35d9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/3ad8a48fc3d596cc6abc92f909587d2a/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/3ad8a48fc3d596cc6abc92f909587d2a/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/62570f6f7bea65cc2d7fbe8f9f40a9d1/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/62570f6f7bea65cc2d7fbe8f9f40a9d1/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/449fe71061d8194d3bacdb9498e9307d/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/449fe71061d8194d3bacdb9498e9307d/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/18264774997eab4d53438a3a5e8a556a/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/18264774997eab4d53438a3a5e8a556a/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/82c3fd7bbaef927b9443f81a4a66aa83/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/82c3fd7bbaef927b9443f81a4a66aa83/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/f6d1efbdcdc5724cfe4cb9e5d6aef9be/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/f6d1efbdcdc5724cfe4cb9e5d6aef9be/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/cba99f7b20204a32f04809b30356a13a/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/cba99f7b20204a32f04809b30356a13a/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/e1f2b733bee8bc571057f2eaab91ff7e/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/e1f2b733bee8bc571057f2eaab91ff7e/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/6f761d7e1438d953ead61f7dc3dbd1a6/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/6f761d7e1438d953ead61f7dc3dbd1a6/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4e48321e58b3bdb9bac7aebbea2bd5b1/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4e48321e58b3bdb9bac7aebbea2bd5b1/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/31c18aa551964fd58b07fd3edd1ae850/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/31c18aa551964fd58b07fd3edd1ae850/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/10c1fe3057c12dc76b2d545cee936ec1/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/10c1fe3057c12dc76b2d545cee936ec1/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/633ff9bbcc77a883f2f61afde785f7a6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/633ff9bbcc77a883f2f61afde785f7a6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/0e8ac696927732b71d261566e34b4ebd/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/0e8ac696927732b71d261566e34b4ebd/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/07490337bdedfd582203c4364b2cf23c/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/07490337bdedfd582203c4364b2cf23c/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/c2e84db4d2d9c8a30991bede50ad05f5/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/c2e84db4d2d9c8a30991bede50ad05f5/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/90c2eeb7da4eaddc2f4896995aabdbe8/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/90c2eeb7da4eaddc2f4896995aabdbe8/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a0c94074a1f0c99d4588a73bc84fb65d/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a0c94074a1f0c99d4588a73bc84fb65d/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/ff8b7fa994dd347c49b86e30db7fea13/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/ff8b7fa994dd347c49b86e30db7fea13/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/9b29d9ceebaab4323cf5b54889605d38/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/9b29d9ceebaab4323cf5b54889605d38/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/8af01f83158beb1041c7bb5d2be19e47/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/8af01f83158beb1041c7bb5d2be19e47/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd5ea9d63d294b0c2c5a69e1b00be77e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd5ea9d63d294b0c2c5a69e1b00be77e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a2183b8b623064c2a56b803a93613e8d/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a2183b8b623064c2a56b803a93613e8d/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/2c0157e5172c2a4cece04678df8f2661/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/2c0157e5172c2a4cece04678df8f2661/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:25:22-78
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:28:9-34:35
+	android:authorities
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:30:13-68
+	android:multiprocess
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:33:13-40
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:31:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:29:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:36:9-41:35
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:39:13-72
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:40:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:41:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:37:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:42:9-48:35
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:45:13-70
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:46:13-36
+	android:permission
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:47:13-69
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:48:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:43:13-84
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:50:9-55:35
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:53:13-35
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:54:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:55:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:52:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:51:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:56:9-66:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:59:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:60:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:61:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:57:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:62:13-65:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:63:17-87
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:63:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:64:17-90
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:64:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:68:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:74:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:75:17-76
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:75:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:85:17-83
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:85:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:86:17-82
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:86:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:89:9-98:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:90:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:95:13-97:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:96:17-79
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:96:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:99:9-110:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:102:13-36
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:103:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:104:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:101:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:100:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:105:13-109:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:106:17-79
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:106:25-76
+action#android.intent.action.TIME_SET
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:107:17-73
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:107:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:108:17-81
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:108:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:111:9-120:20
+	android:enabled
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:114:13-72
+	android:exported
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:115:13-37
+	tools:targetApi
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:116:13-32
+	android:directBootAware
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:113:13-44
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:112:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:117:13-119:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:118:17-98
+	android:name
+		ADDED from [android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:118:25-95
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

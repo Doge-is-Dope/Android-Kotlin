@@ -1,0 +1,249 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chunchiehliang.test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:23:5-68
+11-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:23:22-65
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:24:5-79
+12-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:25:5-81
+13-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:25:22-78
+14
+15    <application
+15-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:5:5-27:19
+16        android:name="com.chunchiehliang.test.MainApplication"
+16-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:6:9-40
+17        android:allowBackup="true"
+17-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/4e48321e58b3bdb9bac7aebbea2bd5b1/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:8:9-43
+21        android:label="@string/app_name"
+21-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:9:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:10:9-54
+23        android:supportsRtl="true"
+23-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:11:9-35
+24        android:theme="@style/AppTheme" >
+24-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:12:9-40
+25        <activity
+25-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:14:9-22:20
+26            android:name="com.chunchiehliang.test.ui.MainActivity"
+26-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:15:13-44
+27            android:theme="@style/AppTheme.NoActionBar" >
+27-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:16:13-56
+28            <intent-filter>
+28-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:17:13-21:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:18:17-69
+29-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:18:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:20:17-77
+31-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:20:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:24:9-26:59
+35            android:name="com.chunchiehliang.test.ui.add.NewPostActivity"
+35-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:25:13-51
+36            android:theme="@style/AppTheme.NoActionBar" />
+36-->/Users/maple/Developer/Android/Samples/AndroidKotlin/Test/app/src/main/AndroidManifest.xml:26:13-56
+37
+38        <provider
+38-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:28:9-34:35
+39            android:name="androidx.work.impl.WorkManagerInitializer"
+39-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:29:13-69
+40            android:authorities="com.chunchiehliang.test.workmanager-init"
+40-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:30:13-68
+41            android:directBootAware="false"
+41-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:31:13-44
+42            android:exported="false"
+42-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:32:13-37
+43            android:multiprocess="true" />
+43-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:33:13-40
+44
+45        <service
+45-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:36:9-41:35
+46            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+46-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:37:13-88
+47            android:directBootAware="false"
+47-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:38:13-44
+48            android:enabled="@bool/enable_system_alarm_service_default"
+48-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:39:13-72
+49            android:exported="false" />
+49-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:40:13-37
+50        <service
+50-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:42:9-48:35
+51            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+51-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:43:13-84
+52            android:directBootAware="false"
+52-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:44:13-44
+53            android:enabled="@bool/enable_system_job_service_default"
+53-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:45:13-70
+54            android:exported="true"
+54-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:46:13-36
+55            android:permission="android.permission.BIND_JOB_SERVICE" />
+55-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:47:13-69
+56
+57        <receiver
+57-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:50:9-55:35
+58            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+58-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:51:13-88
+59            android:directBootAware="false"
+59-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:52:13-44
+60            android:enabled="true"
+60-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:53:13-35
+61            android:exported="false" />
+61-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:54:13-37
+62        <receiver
+62-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:56:9-66:20
+63            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+63-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:57:13-106
+64            android:directBootAware="false"
+64-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:58:13-44
+65            android:enabled="false"
+65-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:59:13-36
+66            android:exported="false" >
+66-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:60:13-37
+67            <intent-filter>
+67-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:62:13-65:29
+68                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+68-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:63:17-87
+68-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:63:25-84
+69                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+69-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:64:17-90
+69-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:64:25-87
+70            </intent-filter>
+71        </receiver>
+72        <receiver
+72-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:67:9-77:20
+73            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+73-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:68:13-104
+74            android:directBootAware="false"
+74-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:69:13-44
+75            android:enabled="false"
+75-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:70:13-36
+76            android:exported="false" >
+76-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:71:13-37
+77            <intent-filter>
+77-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:73:13-76:29
+78                <action android:name="android.intent.action.BATTERY_OKAY" />
+78-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:74:17-77
+78-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:74:25-74
+79                <action android:name="android.intent.action.BATTERY_LOW" />
+79-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:75:17-76
+79-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:75:25-73
+80            </intent-filter>
+81        </receiver>
+82        <receiver
+82-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:78:9-88:20
+83            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+83-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:79:13-104
+84            android:directBootAware="false"
+84-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:80:13-44
+85            android:enabled="false"
+85-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:81:13-36
+86            android:exported="false" >
+86-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:82:13-37
+87            <intent-filter>
+87-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:84:13-87:29
+88                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+88-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:85:17-83
+88-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:85:25-80
+89                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+89-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:86:17-82
+89-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:86:25-79
+90            </intent-filter>
+91        </receiver>
+92        <receiver
+92-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:89:9-98:20
+93            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+93-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:90:13-103
+94            android:directBootAware="false"
+94-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:91:13-44
+95            android:enabled="false"
+95-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:92:13-36
+96            android:exported="false" >
+96-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:93:13-37
+97            <intent-filter>
+97-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:95:13-97:29
+98                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+98-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:96:17-79
+98-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:96:25-76
+99            </intent-filter>
+100        </receiver>
+101        <receiver
+101-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:99:9-110:20
+102            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+102-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:100:13-88
+103            android:directBootAware="false"
+103-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:101:13-44
+104            android:enabled="false"
+104-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:102:13-36
+105            android:exported="false" >
+105-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:103:13-37
+106            <intent-filter>
+106-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:105:13-109:29
+107                <action android:name="android.intent.action.BOOT_COMPLETED" />
+107-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:106:17-79
+107-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:106:25-76
+108                <action android:name="android.intent.action.TIME_SET" />
+108-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:107:17-73
+108-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:107:25-70
+109                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+109-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:108:17-81
+109-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:108:25-78
+110            </intent-filter>
+111        </receiver>
+112        <receiver
+112-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:111:9-120:20
+113            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+113-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:112:13-99
+114            android:directBootAware="false"
+114-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:113:13-44
+115            android:enabled="@bool/enable_system_alarm_service_default"
+115-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:114:13-72
+116            android:exported="false" >
+116-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:115:13-37
+117            <intent-filter>
+117-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:117:13-119:29
+118                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+118-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:118:17-98
+118-->[android.arch.work:work-runtime:1.0.1] /Users/maple/.gradle/caches/transforms-2/files-2.1/1b45fc272c79e8136a6c5b5a33f0c672/jetified-work-runtime-1.0.1/AndroidManifest.xml:118:25-95
+119            </intent-filter>
+120        </receiver>
+121
+122        <service
+122-->[androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+123            android:name="androidx.room.MultiInstanceInvalidationService"
+123-->[androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+124            android:exported="false" />
+124-->[androidx.room:room-runtime:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/a11a995069d40f3ca52f2cfb997b3489/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+125
+126        <provider
+126-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+127            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+128            android:authorities="com.chunchiehliang.test.lifecycle-process"
+128-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+129            android:exported="false"
+129-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+130            android:multiprocess="true" />
+130-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/maple/.gradle/caches/transforms-2/files-2.1/dd56d80e2ed0c26a6b573d20df298b7e/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+131    </application>
+132
+133</manifest>
